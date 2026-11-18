@@ -25,6 +25,12 @@ I saved these drawings from the playground in May 2020, while I was building it.
 |---|---|---|
 | ![Red rings on a black disc](images/gallery-rings.jpeg) | ![Yellow, black and red mandala](images/gallery-mandala.jpeg) | ![Orange and black lace pattern](images/gallery-lace.jpeg) |
 
+## Award
+
+![Apple's letter to WWDC20 Swift Student Challenge winners, with the WWDC20 pin set](images/wwdc20-award.jpeg)
+
+Apple's letter and the WWDC20 pin set that arrived after the challenge. I took the photo in July 2020.
+
 ## Repository layout
 
 | Path | Content |
@@ -32,7 +38,7 @@ I saved these drawings from the playground in May 2020, while I was building it.
 | `Kaleidoscope.swiftpm/` | The app playground. Open it in Swift Playground or in Xcode. The code is in `ContentView.swift`. |
 | `WWDC20/Kaleidoscope.swift` | The code of the 2020 playground book, extracted from the book without changes. |
 | `WWDC20/Kaleidoscope.playgroundbook.zip` | The 2020 playground book, for download. |
-| `images/` | Drawings and a screenshot from May 2020, and the cover image of the book. |
+| `images/` | Drawings and a screenshot from May 2020, the photo of the award, and the cover image of the book. |
 
 The app playground and the 2020 file differ in two places only. The app version has no `import PlaygroundSupport` line, and it has no `PlaygroundPage.current.setLiveView` call at the end, because an app starts from `MyApp.swift`.
 
